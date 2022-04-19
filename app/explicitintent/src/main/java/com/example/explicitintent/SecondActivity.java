@@ -2,6 +2,7 @@ package com.example.explicitintent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
@@ -12,9 +13,22 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        Bundle bundle = getIntent().getExtras();
-        String myName = bundle.getString("Name");
+
+        /**
+         *  Get Intent value from Intent
+         */
+        Intent intent = getIntent();
+        String myName = intent.getStringExtra("MyName");
         Log.e("SecondActivity", "onCreate: " + myName);
         Toast.makeText(this, myName, Toast.LENGTH_SHORT).show();
+
+
+        /**
+         *  Get Intent value from bundle
+         */
+//        Bundle bundle = getIntent().getExtras();
+//        String myBundleName = bundle.getString("Name");
+//        Log.e("SecondActivity", "onCreate: " + myBundleName);
+//        Toast.makeText(this, myBundleName, Toast.LENGTH_SHORT).show();
     }
 }
