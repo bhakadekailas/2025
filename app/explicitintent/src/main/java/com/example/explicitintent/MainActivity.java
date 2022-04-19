@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
             Intent intent = new Intent(this, SecondActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putString("Name", "Kailas Bhakade");
+            intent.putExtras(bundle);
             startActivity(intent);
         });
     }
