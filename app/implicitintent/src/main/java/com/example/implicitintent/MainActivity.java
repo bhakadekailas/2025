@@ -1,34 +1,60 @@
 package com.example.implicitintent;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    //    Button button;
+    Button buttonCamera, buttonShare;
+    EditText editTextPersonName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.buttonCamera);
+        buttonCamera = findViewById(R.id.buttonCamera);
+        editTextPersonName = findViewById(R.id.editTextPersonName);
+        buttonShare = findViewById(R.id.buttonShare);
 
-//        button.setOnClickListener(new View.OnClickListener() {
-////            @Override
-////            public void onClick(View view) {
-////                Toast.makeText(MainActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-////                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-////                startActivity(intent);
-////            }
-////        });
+        /*
+          Start Camera Intent
+         */
+        buttonCamera.setOnClickListener(view -> {
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(intent);
+        });
 
-        //todo
+        /*
+         * Start Share Intent
+         */
+        buttonShare.setOnClickListener(view -> {
+            String myName = editTextPersonName.getText().toString();
 
 
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, myName);
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
+        });
 
+
+//        Intent intent=new Intent(Intent.ACTION_VIEW);
+//        intent.setData(Uri.parse("https://www.google.com/"));
+//        startActivity(intent);
+    }
+
+    /*
+    This function called from xml file
+     */
+    public void addTwoNumber(View view) {
+        Toast.makeText(this, "Addition", Toast.LENGTH_SHORT).show();
     }
 }

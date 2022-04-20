@@ -17,10 +17,10 @@ public class SecondActivity extends AppCompatActivity {
         /**
          *  Get Intent value from Intent
          */
-        Intent intent = getIntent();
-        String myName = intent.getStringExtra("MyName");
-        Log.e("SecondActivity", "onCreate: " + myName);
-        Toast.makeText(this, myName, Toast.LENGTH_SHORT).show();
+//        Intent intent = getIntent();
+//        String myName = intent.getStringExtra("MyName");
+//        Log.e("SecondActivity", "onCreate: " + myName);
+//        Toast.makeText(this, myName, Toast.LENGTH_SHORT).show();
 
 
         /**

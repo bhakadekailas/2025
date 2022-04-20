@@ -17,21 +17,21 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
 
-            /**
+            /*
              *  Start Second Activity using intent
              */
 //            Intent intent = new Intent(this, SecondActivity.class);
 //            startActivity(intent);
 
 
-            /**
+            /*
              * Pass data using simple intent (Not Bundle) from one activity to another activity
              */
             Intent intent = new Intent(this, SecondActivity.class);
             intent.putExtra("MyName", "IMCC");
             startActivity(intent);
 
-            /**
+            /*
              * Pass data using bundle from one activity to another activity
              */
 //            Intent intent = new Intent(this, SecondActivity.class);
