@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "IMCC_BBACA"
 include ':app'
+include ':app:activitylifecycle'
+include ':app:implicitintent'
+include ':app:explicitintent'
+include ':app:layoutmanager'
+include ':app:calcidemo'

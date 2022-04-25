@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/activitylifecycle/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/calcidemo/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/explicitintent/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/explicitintent/src/main/res/layout/activity_second.xml" value="0.21510416666666668" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/implicitintent/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/implicitintent/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_linear_layout.xml" value="0.15443840579710144" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_constraint_layout.xml" value="0.22708333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_frame_layout.xml" value="0.22708333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_grid_layout.xml" value="0.22708333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_linear_layout.xml" value="0.22708333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_relative_layout.xml" value="0.22708333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_scroll_view.xml" value="0.15443840579710144" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_table_layout.xml" value="0.3333333333333333" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/src/main/res/layout/activity_main.xml" value="0.24139492753623187" />
       </map>
     </option>
