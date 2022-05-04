@@ -19,6 +19,18 @@ public class MySimpleListView extends AppCompatActivity {
         items.add("Android");
         items.add("Java");
         items.add("Kotlin");
+        items.add("Android");
+        items.add("Java");
+        items.add("Kotlin");
+        items.add("Android");
+        items.add("Java");
+        items.add("Kotlin");
+        items.add("Android");
+        items.add("Java");
+        items.add("Kotlin");
+        items.add("Android");
+        items.add("Java");
+        items.add("Kotlin");
 
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
         ListView listView = findViewById(R.id.listView);

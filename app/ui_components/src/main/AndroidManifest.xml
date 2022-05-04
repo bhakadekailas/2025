@@ -19,7 +19,7 @@
             android:name=".MyDatePicker"
             android:exported="false" />
         <activity
-            android:name=".MyDialogBox"
+            android:name=".MyAlertDialog"
             android:exported="false" />
         <activity
             android:name=".MyAutoCompleteText"
