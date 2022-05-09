@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">thread_and_notification</string>
+    <string name="worker_thread">Worker Thread</string>
+    <string name="thread_runnable_handler">Thread_Runnable_Handler</string>
+    <string name="start">Start</string>
+    <string name="switch_button">Switch Button</string>
+    <string name="_0">0</string>
+    <string name="start_async_task">Start Async Task</string>
+    <string name="async_task">Async Task</string>
+    <string name="download_file">Download File</string>
+</resources>

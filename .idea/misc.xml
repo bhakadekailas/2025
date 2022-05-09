@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/activitylifecycle/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/activity_grid_view.xml" value="0.26145833333333335" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/activity_list_view.xml" value="0.16458333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/activity_main.xml" value="0.14114583333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/activity_my_array_adapter.xml" value="0.22" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/activity_my_base_adapter.xml" value="0.15520833333333334" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/activity_photo_gallery.xml" value="0.16458333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/row_layout_for_base_adapter.xml" value="0.23645833333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/row_my_array_adapter.xml" value="0.3333333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/adapters/src/main/res/layout/row_photo_gallery.xml" value="0.2546875" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/calcidemo/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/explicitintent/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/explicitintent/src/main/res/layout/activity_second.xml" value="0.21510416666666668" />
@@ -18,7 +27,36 @@
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_relative_layout.xml" value="0.22708333333333333" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_scroll_view.xml" value="0.15443840579710144" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/layoutmanager/src/main/res/layout/activity_my_table_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/menus/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/menus/src/main/res/layout/activity_my_context_menu.xml" value="0.203125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/menus/src/main/res/layout/activity_my_option_menu.xml" value="0.1890625" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/menus/src/main/res/layout/activity_my_popup_menu.xml" value="0.2078125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/menus/src/main/res/menu/my_context_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/menus/src/main/res/menu/my_option_menu.xml" value="0.18020833333333333" />
         <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/src/main/res/layout/activity_main.xml" value="0.24139492753623187" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/thread_and_notification/src/main/res/layout/activity_async_task.xml" value="0.22604166666666667" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/thread_and_notification/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/thread_and_notification/src/main/res/layout/activity_thread_runnable_handler.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/thread_and_notification/src/main/res/layout/activity_worker_tread.xml" value="0.24739583333333334" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_image_button.xml" value="0.22" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_alert_dialog.xml" value="0.23958333333333334" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_auto_complete_text.xml" value="0.16458333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_check_box.xml" value="0.22916666666666666" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_custom_dialog.xml" value="0.15729166666666666" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_date_picker.xml" value="0.2703125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_dialog.xml" value="0.23958333333333334" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_edit_text.xml" value="0.2078125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_progress_bar.xml" value="0.2078125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_radio_button.xml" value="0.22916666666666666" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_scroll_view.xml" value="0.2078125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_simple_button.xml" value="0.15833333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_time_picker.xml" value="0.22" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_toast.xml" value="0.2078125" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_my_toogle_button.xml" value="0.1" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_simple_list_view.xml" value="0.15833333333333333" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/activity_spinner_demo.xml" value="0.23177083333333334" />
+        <entry key="..\:/IMCC/BBACA/Demo/IMCC_BBACA/app/ui_components/src/main/res/layout/forget_password_custom_layout.xml" value="0.15729166666666666" />
       </map>
     </option>
   </component>
