@@ -13,16 +13,22 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/activitylifecycle" />
             <option value="$PROJECT_DIR$/app/adapters" />
+            <option value="$PROJECT_DIR$/app/alarmmanagerdemo" />
+            <option value="$PROJECT_DIR$/app/broadcastdemo" />
+            <option value="$PROJECT_DIR$/app/broadcastreceiverdemo" />
             <option value="$PROJECT_DIR$/app/calcidemo" />
+            <option value="$PROJECT_DIR$/app/callandsmsphoneservices" />
             <option value="$PROJECT_DIR$/app/explicitintent" />
             <option value="$PROJECT_DIR$/app/implicitintent" />
             <option value="$PROJECT_DIR$/app/layoutmanager" />
             <option value="$PROJECT_DIR$/app/menus" />
+            <option value="$PROJECT_DIR$/app/notificationdemo" />
+            <option value="$PROJECT_DIR$/app/services" />
+            <option value="$PROJECT_DIR$/app/sqlitedemo" />
             <option value="$PROJECT_DIR$/app/thread_and_notification" />
             <option value="$PROJECT_DIR$/app/ui_components" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

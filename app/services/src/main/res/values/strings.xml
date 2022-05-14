@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Services</string>
+    <string name="foreground_service">Foreground Service</string>
+    <string name="background_service">Background Service</string>
+    <string name="bound_service">Bound Service</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="bind">Bound</string>
+    <string name="unbind">Unbound</string>
+    <string name="print_timestamp">Get Random No</string>
+</resources>
