@@ -43,17 +43,13 @@ public class SignupActivity extends AppCompatActivity {
                 userDataModel.setEmail(email);
                 userDataModel.setPassword(password);
 
-
-                Toast.makeText(SignupActivity.this, userDataModel.toString(), Toast.LENGTH_LONG).show();
-
                 MyDatabaseHelper myDatabaseHelper = new MyDatabaseHelper(SignupActivity.this);
-
                 myDatabaseHelper.saveIntoDatabase(userDataModel);
+                editTextFirstName.setText("");
+                editTextLastName.setText("");
+                editTextEmail.setText("");
+                editTextPassword.setText("");
             }
         });
-    }
-
-    private void saveIntoDatabase() {
-        Log.e(TAG, "saveIntoDatabase: ");
     }
 }

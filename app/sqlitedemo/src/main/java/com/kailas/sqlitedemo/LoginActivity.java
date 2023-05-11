@@ -41,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String email = editTextEmail.getText().toString();
                 String password = editTextPassword.getText().toString();
+
                 MyDatabaseHelper myDatabaseHelper = new MyDatabaseHelper(LoginActivity.this);
                 if (myDatabaseHelper.isValidUser(email,password)) {
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);

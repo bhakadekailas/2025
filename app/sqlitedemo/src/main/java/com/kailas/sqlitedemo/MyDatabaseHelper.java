@@ -5,8 +5,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
+    private final String TAG = MyDatabaseHelper.class.getSimpleName();
+
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "user_db";
     private static final String TABLE_USER = "user_details";
@@ -50,6 +53,8 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
 
     public void saveIntoDatabase(UserDataModel userDataModel) {
+        Log.e(TAG, "saveIntoDatabase: ");
+
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
@@ -64,13 +69,51 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
     public boolean isValidUser(String email, String password) {
         SQLiteDatabase db = this.getReadableDatabase();
-
-        Cursor cursor = db.query(TABLE_USER, new String[]{EMAIL,
-                        PASSWORD}, EMAIL + "=?",
-                new String[]{String.valueOf(email)}, null, null, null, null);
+        String whereColumns = EMAIL + "= ?" + " AND " + PASSWORD + "= ?";
+        String[] whereArguments = {email, password};
+        Cursor cursor = db.query(TABLE_USER, null, whereColumns, whereArguments, null, null, null, null);
         if (cursor != null) {
             return cursor.getCount() > 0;
         }
         return false;
     }
+
+    public UserDataModel getUser(String email, String password){
+        UserDataModel userDataModel = new UserDataModel();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String whereColumns = EMAIL + "= ?" + " AND " + PASSWORD + "= ?";
+        String[] whereArguments = {email, password};
+        Cursor cursor = db.query(TABLE_USER, null, whereColumns, whereArguments, null, null, null, null);
+        if (cursor != null) {
+            cursor.moveToFirst();
+            String ansco=cursor.getString(cursor.getColumnIndex(EMAIL));
+//            userDataModel.setFirstName(cursor.getString(cursor.getColumnIndex("abc")));
+        }
+
+
+
+        return userDataModel;
+    }
+
+//    public ArrayList<UserDataModel> getAllUsers() {
+//        ArrayList<UserDataModel> userDataModelArrayList = new ArrayList<>();
+//        SQLiteDatabase db = this.getReadableDatabase();
+//        String whereColumns = EMAIL + "= ?" + " AND " + PASSWORD + "= ?";
+//        String[] whereArguments = {email, password};
+//        Cursor cursor = db.query(TABLE_USER, null, whereColumns, whereArguments, null, null, null, null);
+//        if (cursor != null) {
+//            return cursor.getCount() > 0;
+//        }
+//
+//
+//        if (cursor != null) {
+//            cursor.moveToFirst();
+//            while (cursor.isAfterLast()) {
+//
+//
+//                cursor.moveToNext();
+//            }
+//        }
+//        return userDataModelArrayList;
+//    }
 }
