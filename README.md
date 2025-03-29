@@ -6,7 +6,7 @@ Notes:
 
 1) https://docs.google.com/document/d/14TgVzX9tTmnlgID2Z9aa3RxlPylCVLLq0KNN0taqzcc/edit
 
-2) Github: https://github.com/bhakadekailas/IMCC_BBACA
+2) Github: https://github.com/bhakadekailas/2025
 
 3) Core Java : https://www.youtube.com/playlist?list=PLlhM4lkb2sEhfuXL-2BDrJ67WkUdQ2v9b
 
