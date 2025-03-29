@@ -59,4 +59,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onDestroy: ");
         Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
     }
+
+    public int add(){
+        return 2+2;
+    }
 }
